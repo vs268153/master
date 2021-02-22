@@ -1,0 +1,33 @@
+{
+ "properties": {
+  "displayName": "vijay test initiative",
+  "policyType": "Custom",
+  "metadata": {
+   "category": "vijay test",
+   "version": "2.0.0",
+   "createdBy": "ca0c55a1-120a-4986-9a40-1c79dc98c2a1",
+   "createdOn": "2021-02-22T06:12:10.9266934Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "SSG-056 Audit Windows VM Name 3.1.4_1",
+    "policyDefinitionId": "/subscriptions/cc3f041b-58a2-4ffb-8034-48d0a1012c40/providers/Microsoft.Authorization/policyDefinitions/0acfa8e9-6517-4820-85a7-9d50caeb4bf0",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "SSG-057 Audit Linux VM Name 3.1.4_1",
+    "policyDefinitionId": "/subscriptions/cc3f041b-58a2-4ffb-8034-48d0a1012c40/providers/Microsoft.Authorization/policyDefinitions/65256825-ef5b-4142-a695-a6883a3d8361",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/cc3f041b-58a2-4ffb-8034-48d0a1012c40/providers/Microsoft.Authorization/policySetDefinitions/d5536ca73d064851b1e4b9bf",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "d5536ca73d064851b1e4b9bf"
+}
