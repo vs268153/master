@@ -1,0 +1,32 @@
+{
+ "properties": {
+  "displayName": "vijay security",
+  "policyType": "Custom",
+  "metadata": {
+   "category": "Security Center",
+   "createdBy": "ca0c55a1-120a-4986-9a40-1c79dc98c2a1",
+   "createdOn": "2021-03-12T05:54:15.4277335Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "[Preview]: Azure Defender for DNS should be enabled_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/bdc59948-5574-49b3-bb91-76b7c986428d",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "[Preview]: Azure Defender for Resource Manager should be enabled_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/c3d20c29-b36d-48fe-808b-99a87530ad99",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/e12233d7-68d5-4cf5-9d7f-f18e9f403226/providers/Microsoft.Authorization/policySetDefinitions/509ce19a7b4d4e7c8bfdd5a2",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "509ce19a7b4d4e7c8bfdd5a2"
+}
